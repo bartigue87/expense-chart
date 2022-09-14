@@ -209,3 +209,155 @@ hr {
   line-height: 23px;
   color: #92857a;
 }
+
+@media screen and (max-width: 500px) {
+  .page-container {
+    width: 343px;
+  }
+
+  .balance-container {
+    width: 343px;
+    height: 97px;
+  }
+
+  .circle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .white {
+    right: 44px;
+    top: 28px;
+  }
+
+  .black {
+    border: 2px solid #382314;
+    background-color: #382314;
+    right: 24px;
+    top: -12px;
+  }
+
+  .text-container {
+    font-family: "DM Sans";
+    font-style: normal;
+  }
+
+  .text-container > h6 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .text-container > p {
+    position: absolute;
+    left: 20px;
+    top: 44px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .spending-container {
+    position: relative;
+    height: 421px;
+  }
+
+  .spending-container > h2 {
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .bar-graph {
+    position: absolute;
+    width: 303px;
+    height: 177px;
+    top: 87px;
+    left: 20px;
+  }
+
+  .bar {
+    width: 33px;
+    height: 50px;
+  }
+
+  .bar > p {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .tue {
+    height: 100px;
+  }
+
+  .wed {
+    background: #76b5bc;
+    height: 150px;
+  }
+
+  .thu {
+    height: 89px;
+  }
+
+  .fri {
+    height: 67px;
+  }
+
+  .sat {
+    height: 124px;
+  }
+
+  .sun {
+    height: 73px;
+  }
+
+  hr {
+    position: relative;
+    width: 303px;
+    top: 308px;
+    left: 20px;
+  }
+
+  .month-container {
+    position: relative;
+    width: 303px;
+    height: 63px;
+    top: 334px;
+    left: 20px;
+  }
+
+  .left-side > h6 {
+    position: absolute;
+    top: calc(50% - 20px / 2 - 21.5px);
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .left-side > p {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 39px / 2 + 12px);
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .right-side > h6 {
+    position: absolute;
+    left: 259px;
+    top: calc(50% - 20px / 2 - 10px);
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .right-side > p {
+    position: absolute;
+    left: 192px;
+    top: calc(50% - 20px / 2 + 10px);
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
