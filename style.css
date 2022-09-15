@@ -112,6 +112,14 @@ body {
   cursor: pointer;
 }
 
+.bar:hover {
+  background-color: #ff9b86;
+}
+
+.today:hover {
+  background-color: #b4e0e5;
+}
+
 .bar > p {
   position: relative;
   bottom: -26px;
@@ -179,8 +187,11 @@ body {
   height: 100px;
 }
 
-.wed {
+.today {
   background: #76b5bc;
+}
+
+.wed {
   height: 150px;
 }
 
@@ -339,6 +350,13 @@ hr {
     position: relative;
     font-size: 12px;
     line-height: 16px;
+  }
+
+  .hover-total {
+    position: absolute;
+    font-size: 12px;
+    width: 44px;
+    height: 27px;
   }
 
   .tue {
