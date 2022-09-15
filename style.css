@@ -109,6 +109,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  cursor: pointer;
 }
 
 .bar > p {
@@ -122,6 +123,56 @@ body {
 
   text-align: center;
   color: #92857a;
+}
+
+.hover-total {
+  position: absolute;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fffbf6;
+  background-color: #382314;
+  width: 75px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
+
+#mon {
+  top: 80px;
+}
+
+#tue {
+  top: 30px;
+}
+
+#wed {
+  top: -20px;
+}
+
+#thu {
+  top: 41px;
+}
+
+#fri {
+  top: 63px;
+}
+
+#sat {
+  top: 6px;
+}
+
+#sun {
+  top: 57px;
 }
 
 .tue {
